@@ -111,7 +111,6 @@ var ViewModel = function() {
         var len = self.locationsList().length;
         for (var i = 0; i < len; i++) {
             self.locationsList()[i].listVisible(true);
-            //allMarker();
             for (var i = 0; i < markers.length; i++) {
             markers[i].setMap(map);
         	}
