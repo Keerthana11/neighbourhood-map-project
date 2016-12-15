@@ -55,7 +55,12 @@ function initMap() {
          bounds.extend(marker.position);
          marker.addListener('click', function() {
           populateInfoWindow(this, largeInfowindow);
-         });
+	  if (marker.getAnimation() !== null) {
+         	marker.setAnimation(null);
+          } else {
+          	marker.setAnimation(google.maps.Animation.BOUNCE);
+          }
+        });
        }
        map.fitBounds(bounds);
 }
