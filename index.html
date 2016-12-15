@@ -24,13 +24,7 @@ API Course, Lesson 1 -->
       <!--input id="search-function" type="button" value="Filter" -->
     </div>
     <div>
-    <ul id="list-items">
-      <li><a href="#">Palakkad Fort</a></li>
-      <li><a href="#">Kalpathy</a></li>
-      <li><a href="#">Malampuzha Dam</a></li>
-      <li><a href="#">Silent Valley</a></li>
-      <li><a href="#">Kava</a></li>
-      <li><a href="#">Neliyampathy</a></li>
+    <ul id="list-items" data-bind= 'foreach: locationsList()'>
     </ul>
     </div>
    <!-- TODO 1: Create a place to put the map in the HTML-->
