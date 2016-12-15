@@ -104,24 +104,6 @@ var ViewModel = function() {
 	locations.forEach(function(location){
 		self.locationsList.push( new Location(location) );
 	});
-	this.filterIndicator = ko.observable("");
-    this.filterInfo = ko.observable(false);
-
-    this.filterAll = function() {
-        var len = self.locationsList().length;
-        for (var i = 0; i < len; i++) {
-            self.locationsList()[i].listVisible(true);
-            for (var i = 0; i < markers.length; i++) {
-            markers[i].setMap(map);
-        	}
-        }
-    };
-
-    this.openInfo = function(thisList) {
-        var thisId = this.nameTitle();
-        var newId = thisId.slice(-1);
-        fillInfoWindow(markers[newId], infoWindow);
-    };
 	
 }
 
