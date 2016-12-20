@@ -106,7 +106,7 @@ function populateInfoWindow(marker, infowindow) {
 	});
 }
 
-function searchfunction() {
+/*function searchfunction() {
 
     var search, filter, ul, li, a, i;
     search = document.getElementById("search-text");
@@ -121,7 +121,7 @@ function searchfunction() {
             li[i].style.display = "none";
         }
     }
-}
+}*/
 
 var Locations = function(data) {
 	
