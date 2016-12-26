@@ -189,8 +189,7 @@ var ViewModel = function() {
   this.filteredList = ko.computed(function() {
   	var filter = self.query();
     console.log("------");
-    this.isVisible = ko.observable(false);
-  	
+    	
   	if (!filter) {
       // markers array + setVisible method
      	for (var i = 0; i < markers.length; i++) {
