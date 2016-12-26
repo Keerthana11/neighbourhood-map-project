@@ -215,7 +215,7 @@ var ViewModel = function() {
   		}
   });
   this.openInfo = function(thisList) {
-    	
+    	this.locationId = ko.observable(thisList.id);
     	var thisId = this.locationId();
        var newId = thisId.slice(-1);
         populateInfoWindow(markers[newId], largeInfowindow);
