@@ -194,7 +194,7 @@ var ViewModel = function() {
   	if (!filter) {
       // markers array + setVisible method
      	for (var i = 0; i < markers.length; i++) {
-        	markers[i].setVisible(false);
+        	markers[i].setVisible(true);
     	}
     	return locations;
   		
