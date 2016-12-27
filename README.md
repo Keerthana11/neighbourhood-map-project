@@ -3,7 +3,7 @@
 
 #### Objective
 
-You will develop a single-page application featuring a map of your neighborhood or a neighborhood you would like to visit. You will then add additional functionality to this application, including: map markers to identify popular locations or places you’d like to visit, a search function to easily discover these locations, and a listview to support simple browsing of all locations. You will then research and implement third-party APIs that provide additional information about each of these locations (such as StreetView images, Wikipedia articles, Yelp reviews, etc).
+You will develop a single-page application featuring a map of your neighborhood or a neighborhood you would like to visit. You will then add additional functionality to this application, including: map markers to identify popular locations or places youâ€™d like to visit, a search function to easily discover these locations, and a listview to support simple browsing of all locations. You will then research and implement third-party APIs that provide additional information about each of these locations (such as StreetView images, Wikipedia articles, Yelp reviews, etc).
 
 #### Implementation Process:
 
@@ -21,7 +21,7 @@ After referring through all the reference links, the implementation was started,
 This stylesheet is for styling the web page in mobile devices having max-width equal or less than 500px.
 
 ##### style.css:
-It involves the main stylesheet required for styling the webpage.
+Involves the main stylesheet required for styling the webpage.
 
 The images folder consists of the images that have been used in the webpage 
 In addition to these files two library files such as knockout.js and jquery.min.js were also added for the implementation of project.
